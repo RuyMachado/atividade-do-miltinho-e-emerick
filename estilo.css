@@ -75,3 +75,44 @@ body {
 .coluna-esquerda a iconify-icon {
     margin-right: 10px;
 }
+
+.headerInfo{
+    background-color: #71c98b;
+    padding-right: 500px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+.bodyInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
+
+    padding: 60px;
+}
+
+footer{
+    display: flex;
+
+    background-color: #71c98b;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+footer iconify-icon{
+    padding-right: 500px;
+}
